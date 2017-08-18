@@ -1,0 +1,9 @@
+*
+!/.config
+!/.config/git
+!/.config/git/hooks
+!/.config/git/hooks/pre-commit
+!/.gitconfig
+!/.gitignore.d
+!/.gitignore.d/git
+!/.global_ignore
