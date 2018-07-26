@@ -1,7 +1,7 @@
 [user]
 	name = Michael Hoang
 [core]
-	excludesfile = /home/enzime/.global_ignore
+	excludesfile = ~/.global_ignore
 	hooksPath = /home/enzime/.config/git/hooks
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [status]
@@ -13,6 +13,9 @@
 	newHighlight = green bold 22
 [url "https://github.com/"]
 	insteadOf = gh:
+	insteadOf = ghro:
 [url "ssh://git@github.com/"]
 	insteadOf = ghp:
 	pushInsteadOf = gh:
+[url "___PUSH_DISABLED___ "]
+	pushInsteadOf = ghro:
