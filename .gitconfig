@@ -1,5 +1,6 @@
 [user]
 	name = Michael Hoang
+	email = enzime@users.noreply.github.com
 [core]
 	excludesfile = ~/.global_ignore
 	hooksPath = /home/enzime/.config/git/hooks
@@ -19,3 +20,9 @@
 	pushInsteadOf = gh:
 [url "___PUSH_DISABLED___ "]
 	pushInsteadOf = ghro:
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
